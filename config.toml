@@ -126,7 +126,7 @@ weight = 13
         [[params.adoption.item]]
         url = "accept-vertcoin"
         [[params.adoption.item]]
-        url = "purchase"
+        url = "trading"
 
 
 
