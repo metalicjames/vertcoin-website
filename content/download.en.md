@@ -62,6 +62,18 @@ having to leave the device. This prevents remote attackers or viruses on your co
 from redirecting or stealing your coins. Currently the only hardware wallet for VTC is
 sold by <a href="https://www.ledgerwallet.com/" target="_blank">Ledger</a>.
 
+# Third Party Wallets
+
+These are wallets that are not produced by the Vertcoin development team and don't into any of
+the other categories. 
+
+## Exodus
+
+<a href="https://www.exodus.io/" target="_blank">Exodus</a> is a multicoin desktop wallet that relies on backend servers to provide blockchain data to
+the wallet which enables instant synchronisation but is completely trusted as far as we can tell.
+Exodus is closed-source but allows you to keep your private keys. Vertcoin is still in beta on Exodus
+so you will need to enable it from the settings page. 
+
 # Paper Wallets
 
 A paper wallet is simply a private key written on a piece of paper. This is known as
