@@ -13,5 +13,9 @@ Payment gateways accept Vertcoin on your behalf and give you your national curre
 
 # For Developers
 
+<<<<<<< HEAD
 Vertcoin is compatible with most existing libraries intended for Bitcoin such as <a href="https://github.com/bitcoinjs/bitcoinjs-lib" target="_blank">bitcoinjs-lib</a> and <a href="https://github.com/petertodd/python-bitcoinlib" target="_blank">python-bitcoinlib</a>. Vertcoin also has ports of <a href="https://github.com/Cubey2019/vertcore" target="_blank">Bitcore</a>, <a href="https://insight.vertcoin.org" target="_blank">Insight</a> and <a href="https://github.com/kyuupichan/electrumx" target="_blank">Electrum</a>.
+=======
+Vertcoin is compatible with most existing libraries intended for Bitcoin such as <a href="https://github.com/bitcoinjs/bitcoinjs-lib" target="_blank">bitcoinjs-lib</a> and <a href="https://github.com/petertodd/python-bitcoinlib" target="_blank">python-bitcoinlib</a>. Vertcoin also has ports of <a href="https://github.com/vertcoin-project/vertcore" target="_blank">Bitcore</a>, <a href="https://insight.vertcoin.org" target="_blank">Insight</a> and <a href="https://github.com/kyuupichan/electrumx" target="_blank">Electrum</a>.
+>>>>>>> 7e84f30c77226935612ff09e9e1fc5ec43342430
 
