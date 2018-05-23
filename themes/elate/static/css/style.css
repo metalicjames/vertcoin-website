@@ -542,7 +542,7 @@ table {
 
   color: #fff;
   overflow: hidden;
-  
+
   /*background: url('../images/texture.jpg');*/
   background-size: cover;
   background-position: 50% 50%;
@@ -1028,6 +1028,7 @@ h4 svg {
 .wrapper p {
   font-size: 21.44px;
   font-size: 17.44px;
+
 
 }
 
