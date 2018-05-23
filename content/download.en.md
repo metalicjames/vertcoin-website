@@ -21,13 +21,13 @@ blockchain history for yourself. Additionally, you help to redistribute the bloc
 to new users, ferry transactions around the network and help prevent <a href="https://bitcoin.stackexchange.com/questions/61151/eclipse-attack-vs-sybil-attack" target="_blank">eclipse attacks</a>.
 If you intend to mine Vertcoin, the Core wallet is a requirement. Our new Lightning Network Wallet will also include these features as well.
 
-|Platform|
+|Platform (V0.13.1)|
 |--------|
-|[Windows](https://github.com/vertcoin/vertcoin/releases/download/0.12.0/vertcoin-v0.12.0-windows-64bit.zip)|
-|[MacOS](https://github.com/vertcoin/vertcoin/releases/download/0.12.0/vertcoin-v0.12.0-OSX-64bit.dmg)|
-|[Ubuntu/Debian](https://github.com/vertcoin/vertcoin/releases/download/0.12.0/vertcoin-qt_0.12.0_amd64.deb)|
-|[Other Linux](https://github.com/vertcoin/vertcoin/releases/download/0.12.0/vertcoin-v0.12.0-linux-64bit.zip)|
-|[Linux (ARM)](https://github.com/vertcoin/vertcoin/releases/download/0.12.0/vertcoin-v0.12.0-linux-arm.zip)|
+|[Windows](https://github.com/vertcoin-project/vertcoin-core/releases/download/0.13.1/vertcoin-qt-v0.13.1-win64.zip)|
+|[MacOS](https://github.com/vertcoin-project/vertcoin-core/releases/download/0.13.1/vertcoin-qt-v0.13.1-macOS.dmg)|
+|[Ubuntu/Debian](https://github.com/vertcoin-project/vertcoin-core/releases/download/0.13.1/vertcoin-qt-v0.13.1-linux-amd64.zip)|
+|[Other Linux](https://github.com/vertcoin-project/vertcoin-core/releases/download/0.13.1/vertcoind-v0.13.1-linux-amd64.zip)|
+|[Linux (ARM)](https://github.com/vertcoin-project/vertcoin-core/releases/download/0.13.1/vertcoind-v0.13.1-linux-armhf.zip)|
 |<a href="https://github.com/vertcoin/vertcoin" target="_blank">Source Code</a>|
 
 # Electrum-VTC
@@ -40,20 +40,20 @@ trustlessly and not helping to redistribute the Vertcoin blockchain to new users
 Users should not mine into Electrum-VTC due to the load caused by many small payments
 that is put on the Electrum servers. Users should use Vertcoin Core for mining instead.
 
-|Platform|
+|Platform (v3.1.2)|
 |--------|
-|[Windows (Installer)](https://github.com/vertcoin/electrum-vtc/releases/download/2.9.3.5/electrum-vtc-2.9.3.5-windows-setup.exe)|
-|[Windows (Standalone)](https://github.com/vertcoin/electrum-vtc/releases/download/2.9.3.5/electrum-vtc-2.9.3.5-windows.exe)|
-|[MacOS](https://github.com/vertcoin/electrum-vtc/releases/download/2.9.3.5/electrum-vtc-2.9.3.5-macosx.dmg)|
-|[Linux](https://github.com/vertcoin/electrum-vtc/releases/download/2.9.3.5/electrum-vtc-2.9.3.5.tar.gz)|
-|<a href="https://github.com/vertcoin/electrum-vtc" target="_blank">Source Code</a>|
+|[Windows (Installer)](https://github.com/vertcoin-project/electrum-vtc/releases/download/3.1.2/electrum-vtc-3.1.2-setup.exe)|
+|[Windows (Standalone)](https://github.com/vertcoin-project/electrum-vtc/releases/download/3.1.2/electrum-vtc-3.1.2.exe)|
+|[MacOS](https://github.com/vertcoin-project/electrum-vtc/releases/download/3.1.2/electrum-vtc-3.1.2.dmg)|
+|[Linux](https://github.com/vertcoin-project/electrum-vtc/releases/download/3.1.2/electrum-vtc-3.1.2.tar.gz)|
+|<a href="https://github.com/vertcoin-project/electrum-vtc/releases/tag/3.1.2" target="_blank">Source Code</a>|
 
 # Mobile Wallets
 
 Currently there are only third-party mobile wallets availible for VTC. We are working
 on bringing you development team provided wallets on Android and iOS and are in the
-approval stage of this process. In the meantime, currently there is only <a href="https://play.google.com/store/apps/details?id=com.coinomi.wallet" target="_blank">Coinomi</a>
-on Android that supports VTC.
+approval stage of this process. In the meantime, currently there is only Coinomi
+on <a href="https://play.google.com/store/apps/details?id=com.coinomi.wallet" target="_blank">Android</a> and <a href="https://itunes.apple.com/us/app/coinomi-wallet/id1333588809" target="_blank">iOS</a> that supports VTC.
 
 # Hardware Wallets
 
@@ -75,3 +75,7 @@ can be imported into Electrum-VTC or Vertcoin Core at a later date and spent fro
 |<a href="https://vertaddress.org" target="_blank">Vertaddress</a>|
 |<a href="https://walletgenerator.net/?currency=Vertcoin" target="_blank">WalletGenerator</a>|
 
+# Third Party Wallets
+
+These are wallets that are not produced by the Vertcoin development team and don't fall into any of
+the other categories.  

@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-You can either accept Vertcoin via a payment processor that accepts cryptocurrency and give you your local currency, or by integrating the Vertcoin wallet into your payment system. Vertcoin is almost a drop-in replacement for Bitcoin so if you already support Bitcoin, Vertcoin should be trivial to support.
+You can either accept Vertcoin via a payment processor that accepts cryptocurrency and gives you your local currency, or by integrating the Vertcoin wallet into your payment system. Vertcoin is almost a drop-in replacement for Bitcoin so if you already support Bitcoin, Vertcoin should be trivial to support.
 
 # Payment Gateways
 
@@ -13,5 +13,5 @@ Payment gateways accept Vertcoin on your behalf and give you your national curre
 
 # For Developers
 
-Vertcoin is compatible with most exiting libraries intended for Bitcoin such as <a href="https://github.com/bitcoinjs/bitcoinjs-lib" target="_blank">bitcoinjs-lib</a> and <a href="https://github.com/petertodd/python-bitcoinlib" target="_blank">python-bitcoinlib</a>. Vertcoin also has ports of <a href="https://github.com/Cubey2019/vertcore" target="_blank">Bitcore</a>, <a href="https://insight.vertcoin.org" target="_blank">Insight</a> and <a href="https://github.com/kyuupichan/electrumx" target="_blank">Electrum</a>.
+Vertcoin is compatible with most existing libraries intended for Bitcoin such as <a href="https://github.com/bitcoinjs/bitcoinjs-lib" target="_blank">bitcoinjs-lib</a> and <a href="https://github.com/petertodd/python-bitcoinlib" target="_blank">python-bitcoinlib</a>. Vertcoin also has ports of <a href="https://github.com/vertcoin-project/vertcore" target="_blank">Bitcore</a>, <a href="https://insight.vertcoin.org" target="_blank">Insight</a> and <a href="https://github.com/kyuupichan/electrumx" target="_blank">Electrum</a>.
 
