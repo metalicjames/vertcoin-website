@@ -20,40 +20,42 @@ theme = "elate"
     languageName = "Franc"
     weight = 2
 
+    [languages.de]
+    languageName = "German"
+    weight = 3
+
 
 # Menu
 
 [[menu.main]]
-url = "/"
-name = "home"
-weight = 1
-
-
+url = "/merchants/"
+name = "merchants"
+weight = 5
 
 [[menu.main]]
 url = "/trading/"
 name = "trading"
-weight = 5
+weight = 7
 
 [[menu.main]]
 url = "/mine/"
 name = "mine"
-weight = 7
+weight = 9
 
 [[menu.main]]
 url = "/community/"
 name = "community"
-weight = 9
+weight = 11
 
 [[menu.main]]
 url = "/team/"
 name = "team"
-weight = 11
+weight = 13
 
 [[menu.main]]
 url = "/donate/"
 name = "donate"
-weight = 13
+weight = 15
 	
 	
 
@@ -115,18 +117,20 @@ weight = 13
 
     [params.howQuestion]
     [[params.howQuestion.item]]
-    url = "specifications-explained"
+    url = "../whatismining/"
     [[params.howQuestion.item]]
-    url = "https://medium.com/vertcoin-blog/2017-in-review-2018-roadmap-d4ba51b29da3"
-
+    url = "https://medium.com/@hugonguyen/proof-of-stake-the-wrong-engineering-mindset-15e641ab65a2"
+    target = "_blank"
 
 # Adoption Links
 
-     [params.adoption]
-        [[params.adoption.item]]
-        url = "accept-vertcoin"
-        [[params.adoption.item]]
-        url = "purchase"
+    [params.adoption]
+    [[params.adoption.item]]
+    url = "https://bitcoinmagazine.com/articles/history-lightning-brainstorm-beta/"
+    target = "_blank"
+    [[params.adoption.item]]
+    url = "https://lightning.network/lightning-network-paper.pdf"
+    target = "_blank"
 
 
 
@@ -146,9 +150,9 @@ weight = 13
     [params.communityStatus]
     [[params.communityStatus.item]]
     social = [
-            ["icon-reddit", "https://twitter.com/jamesl22"],
-            ["icon-twitter", "https://github.com/metalicjames/"],
-            ["icon-discord", "https://github.com/metalicjames/"]
+            ["icon-reddit", "https://reddit.com/r/vertcoin"],
+            ["icon-twitter", "https://twitter.com/vertcoin"],
+            ["icon-discord", "https://discord.gg/vertcoin"]
           ]
 
 
@@ -157,6 +161,17 @@ weight = 13
 
   [params.about]
 
+    [[params.about.item]]
+      name = "Vertcoin Community"
+      img = "placeholder.png"
+      alt = "Community"
+      social = [
+            ["icon-reddit", "https://reddit.com/r/vertcoin"],
+            ["icon-twitter", "https://twitter.com/vertcoin"],
+            ["icon-discord", "https://discord.gg/vertcoin"],
+            ["icon-github", "https://github.com/vertcoin-project"]
+      ]
+
 
     [[params.about.item]]
       name = "James Lovejoy"
@@ -164,7 +179,8 @@ weight = 13
       alt = "James Lovejoy"
       social = [
         ["icon-twitter", "https://twitter.com/jamesl22"],
-        ["icon-github", "https://github.com/metalicjames/"]
+        ["icon-github", "https://github.com/metalicjames/"],
+        ["icon-linkedin", "https://www.linkedin.com/in/james-lovejoy-48ab16131/"]
       ]
 
     [[params.about.item]]
@@ -211,7 +227,7 @@ weight = 13
 
     [[params.about.item]]
       name = "Alex Turek"
-      img = "alex.jpg"
+      img = "person1.png"
       alt = "Alex Turek"
       social = [
         ["icon-linkedin", "https://www.linkedin.com/in/turekaj/"]
@@ -219,13 +235,13 @@ weight = 13
 
     [[params.about.item]]
       name = "jk_14"
-      img = "person1.jpg"
+      img = "person1.png"
       alt = "jk_14"
       social = []
 
     [[params.about.item]]
       name = "pknight"
-      img = "person2.jpg"
+      img = "person2.png"
       alt = "pknight"
       social = []
 
@@ -244,11 +260,15 @@ weight = 13
       alt = "Daiki"
       social = []
 
-    [[params.about.item]]
-      name = "Vertcoin Community"
-      img = "placeholder.png"
-      alt = "Community"
-      social = []
+
+     [[params.about.item]]
+      name = "CryptoPlankton"
+      img = "person2.png"
+      alt = "CryptoPlankton"
+      social = [
+        ["icon-twitter", "https://twitter.com/cryptoplankto"],
+      ]
+    
 
 
 

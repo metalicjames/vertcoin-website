@@ -26,6 +26,10 @@ nav a {
 
 a {
   font-weight: 700;
+  /* Web Font */
+  font-family: "Gotham A", "Gotham B", Gotham Bold;
+  font-style: normal;
+  /*---------*/
 }
 
 body {
@@ -34,7 +38,7 @@ body {
 
 
   /* Web Font */
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", Gotham Book;
   font-style: normal;
   font-weight: 400;
   /*---------*/
@@ -42,7 +46,7 @@ body {
 
   
   font-size: 20px;
-  font-size: 16.44px;
+  font-size: 17.44px;
   line-height: 1.5;
   color: #777777;
   color: #7f7f7f;
@@ -59,7 +63,7 @@ strong {
   font-weight: normal;
 
   /* Web Font */
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", Gotham Bold;
   font-style: normal;
   font-weight: 700;
   /*---------*/
@@ -70,7 +74,7 @@ tr {
 
 
   /* Web Font */
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", Gotham Book;
   font-style: normal;
   font-weight: 400;
   /*---------*/
@@ -78,13 +82,18 @@ tr {
 
 th {
   padding-right: 1.5em;
+  /* Web Font */
+  font-family: "Gotham A", "Gotham B", Gotham Bold;
+  font-style: normal;
+  font-weight: 700;
+  /*---------*/
 }
 
 tbody {
   font-family: "Gotham Book";
 
   /* Web Font */
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", Gotham Book;
   font-style: normal;
   font-weight: 400;
   /*---------*/
@@ -92,15 +101,12 @@ tbody {
 
 a {
   color: #048657;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
   cursor: pointer;
 }
 a:hover, a:active, a:focus {
   color: #048657;
   outline: none;
-  opacity: 0.8
+  opacity: 0.6;
 }
 
 p {
@@ -122,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
   /* Web Font */
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", Gotham Bold;
   font-style: normal;
   font-weight: 700;
   /*---------*/
@@ -376,7 +382,7 @@ table {
   font-weight: 300;
 
   /* Web Font */
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", Gotham Bold;
   font-style: normal;
   font-weight: 700;
   /*---------*/
@@ -531,10 +537,12 @@ table {
   width: 100%;
   background-color: #048657;
   background-color: white;
+  background: linear-gradient(to bottom, #005341 0%, #003029 100%);
   /*background-color: #fafafa;*/
+
   color: #fff;
   overflow: hidden;
-  border-bottom: 20px solid white;
+  
   /*background: url('../images/texture.jpg');*/
   background-size: cover;
   background-position: 50% 50%;
@@ -654,9 +662,9 @@ table {
 #fh5co-home .text-inner a {
   color: white;
   /*border-bottom: 1px dashed rgba(255, 255, 255, 0.5);*/
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  transition: 0s;
 }
 #fh5co-home .text-inner a:hover, #fh5co-home .text-inner a:active, #fh5co-home .text-inner a:focus {
   text-decoration: none;
@@ -683,7 +691,7 @@ table {
 @media screen and (max-width: 767px) {
   #fh5co-home .text-inner h1 {
     font-size: 23.23px;
-    font-size: 25.44px;
+    font-size: 23.44px;
     margin: 0 0 20px 0;
     width: 95%;
     margin: 0 auto;
@@ -696,7 +704,7 @@ table {
 
 #fh5co-home .text-inner p {
   font-size: 15px;
-  font-size: 25.44px;
+  font-size: 23.44px;
   line-height: 38px;
   font-weight: 300;
   color: #111111;
@@ -742,6 +750,9 @@ table {
   position: relative;
   bottom: 0;
   z-index: 10;
+  background: #003029;
+   
+    padding-bottom: 28px;
   /*padding-bottom: 7em;*/
 }
 /*@media screen and (max-width: 767px) {*/
@@ -778,6 +789,12 @@ table {
   position: relative;
   transition: none;
   margin-right: 20px;
+
+  /* Web Font */
+  font-family: "Gotham A", "Gotham B", Gotham Bold;
+  font-style: normal;
+  font-weight: 700;
+  /*---------*/
 }
 
 @media screen and (max-width: 1210px) {
@@ -795,7 +812,7 @@ table {
   width: 100%;
   height: 70%;
   position: absolute;
-  bottom: -1px;
+  bottom: 0px;
   left: 0;
   right: 0;
   z-index: 10;
@@ -864,7 +881,7 @@ table {
 }
 
 #fh5co-intro .fh5co-block h2 {
-  font-size: 25.44px;
+  font-size: 23.44px;
   /*font-weight: 400;*/
   margin-bottom: 10px;
 }
@@ -980,7 +997,7 @@ table {
 }
 
 .wrapper h4 {
-  font-size: 25.44px;
+  font-size: 23.44px;
 }
 
 .wrapper h5 {
@@ -1002,14 +1019,15 @@ h4 svg {
 
 @media screen and (max-width: 768px) {
   .wrapper h3 {
-    font-size: 25.44px;
+    font-size: 23.44px;
     font-size: 34.44px;
     font-size: 27.44px;
   }
 }
 
 .wrapper p {
-  font-size: 25.44px;
+  font-size: 21.44px;
+  font-size: 17.44px;
 
 }
 
@@ -1376,10 +1394,7 @@ h4 svg {
 .fh5co-person .fh5co-position {
   color: #111111;
   display: block;
-  /*margin-bottom: 20px;*/
   margin-bottom: 14px;
-  margin-bottom: 27px;
-
   font-size: 17.44px;
   font-size: 20.44px;
 }
@@ -1636,6 +1651,9 @@ h4 svg {
 
 .footer-left p {
   font-weight: 700;
+  font-family: "Gotham A", "Gotham B", Gotham Bold;
+    font-style: normal;
+  
 }
 
 @media screen and (max-width: 1024px) {
@@ -1667,8 +1685,7 @@ h4 svg {
   display: block;
   position: relative;
   width: 100%;
-  margin-bottom: 5px;
-  display: none;
+  margin-bottom: 12px;
 }
 .social li {
   list-style: none;
@@ -1710,7 +1727,7 @@ h4 svg {
   color: #fff;
 }
 .social.social-circle a {
-  color: #4BB182;
+  color: #048657;
   font-size: 32px;
 
 }
@@ -1831,7 +1848,7 @@ h4 svg {
 
 .navbar-brand svg {
   width: 171px;
-  height: auto;
+  height: 34px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1872,15 +1889,16 @@ h4 svg {
   cursor: pointer;
 
   /* Web Font */
-  font-family: "Gotham A", "Gotham B";
+  font-family: "Gotham A", "Gotham B", Gotham Bold;
   font-style: normal;
   font-weight: 700;
   /*---------*/
 }
 
-/*a.button:hover {*/
-  /*opacity: 1;*/
-/*}*/
+.button:hover {
+  opacity: 0.7;
+  transition: 0.4s;
+}
 
 .button span {
 
@@ -1901,6 +1919,13 @@ h4 svg {
   margin: 10px 0px;
   position: relative;
   display: inline-block;
+
+  /* Web Font */
+  font-family: "Gotham A", "Gotham B", Gotham Bold;
+  font-style: normal;
+  font-weight: 700;
+  /*---------*/
+
 }
 
 .themeButton:hover {
@@ -2221,7 +2246,7 @@ h4 svg {
   position: absolute;
   right: -511px;
   top: 67px;
-  top: 42px;
+  top: 12px;
   width: 450px;
   height: auto;
 }
@@ -2282,12 +2307,12 @@ h4 svg {
 
 
 .atomic-swap-image {
-  float: right;
-  position: absolute;
-  right: -763px;
-  top: -103px;
-  width: 706px;
-  height: auto;
+        float: right;
+    position: absolute;
+    right: -810px;
+    bottom: -67px;
+    width: 830px;
+    height: auto;
 }
 
 @media screen and (max-width: 767px) {
@@ -2296,10 +2321,11 @@ h4 svg {
     position: relative;
     width: 526px;
     height: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: -43px;
     top: 0px;
     right: 0px;
+    left: -31px;
   }
 }
 
@@ -2374,7 +2400,7 @@ h4 svg {
 }
 
 .guideTitles {
-  font-size: 37.44px;
+  font-size: 23.44px;
   /*margin-left: 12px;*/
 }
 
@@ -2486,6 +2512,7 @@ h2.guideTitles svg {
 .guideSpacer {
   padding-bottom: 46px;
   padding-bottom: 71px;
+  padding-top: 0px;
 }
 
 .separator-greenLine:last-of-type:after {
@@ -2563,6 +2590,7 @@ h2.guideTitles svg {
   margin-bottom: 97px;
   min-height: 300px;
   margin-top: 10px;
+  margin-top: 50px;
 }
 
 .donationGoal:first-child {
@@ -2742,7 +2770,7 @@ h2.guideTitles svg {
 #fh5co-footer {
 
   width: 100%;
-  background: #fefefe;
+  background: #ffffff;
 
   border-top: 1px solid rgba(0,0,0,.0975);
 }
@@ -2755,7 +2783,7 @@ h2.guideTitles svg {
 
 @media screen and (max-width: 1024px) {
   #fh5co-header #navbar li:nth-child(1) {
-    display: none;
+    
   }
 }
 
@@ -2768,11 +2796,11 @@ h2.guideTitles svg {
 
 @media screen and (max-width: 767px) {
   .container h1,gradient h1 {
-    font-size: 25.44px !important;
+    font-size: 23.44px !important;
   }
 
   .gradient h1 {
-    font-size: 25.44px !important;
+    font-size: 23.44px !important;
   }
 }
 
@@ -2807,6 +2835,8 @@ h2.guideTitles svg {
 .darkMode .vertcoinLogoTextController {
   fill: white !important;
 }
+
+
 
 
 
